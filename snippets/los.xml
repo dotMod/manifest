@@ -7,7 +7,7 @@
           revision="refs/heads/lineage-18.1" />
 
   <remote name="anu"
-          fetch="https://github.com/11-whyred-new" />
+          fetch="https://github.com/11-whyred-new"
           revision="refs/heads/eleven" />
 
   <!-- CodeAurora additions -->
