@@ -26,6 +26,10 @@
           fetch="https://git.droidontime.com/android"
           revision="refs/heads/dot11" />
 
+  <remote name="mod"
+          fetch="https://github.com/dotMod"
+          revision="refs/heads/dot11.0" />
+
   <project path="art" name="android_art" remote="dot" />
   <project path="manifest" name="manifest" remote="dot" />
   <project path="bionic" name="android_bionic" remote="dot" />
@@ -72,8 +76,8 @@
   <project path="external/faceunlock" name="external_faceunlock" remote="dot-git" />
 
   <!-- Frameworks Repos -->
-  <project path="frameworks/av" name="android_frameworks_av" remote="dot" />
-  <project path="frameworks/base" name="android_frameworks_base" remote="dot" />
+  <project path="frameworks/av" name="android_frameworks_av" remote="mod" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="mod" />
   <project path="frameworks/libs/systemui" name="android_frameworks_libs_systemui" remote="dot" />
   <project path="frameworks/native" name="android_frameworks_native" remote="dot" />
   <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" remote="dot" />
@@ -83,6 +87,7 @@
 
   <!-- Hardware repos -->
   <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="dot" />
+  <project path="hardware/qcom/thermal" name="android_hardware_qcom_thermal" groups="qcom,qcom_audio,pdk-qcom" remote="mod" />
   <project path="hardware/qcom/camera" name="android_hardware_qcom_camera" groups="qcom_camera,pdk-qcom" remote="dot" />
   <project path="hardware/qcom/data/ipacfg-mgr" name="android_hardware_qcom_data_ipacfg-mgr" groups="qcom,pdk-qcom" remote="dot"/>
   <project path="hardware/qcom/display" name="android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" remote="dot" />
@@ -146,7 +151,7 @@
   <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" groups="pdk-fs" remote="dot" />
   <project path="packages/apps/PermissionController" name="android_packages_apps_PermissionController" groups="pdk-fs" remote="dot" />
   <project path="packages/apps/SimpleDeviceConfig" name="android_packages_apps_SimpleDeviceConfig" remote="dot" />
-  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="dot" />
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="mod" />
   <project path="packages/apps/SettingsIntelligence" name="android_packages_apps_SettingsIntelligence" remote="dot" />
   <project path="packages/apps/Stk" name="android_packages_apps_Stk" remote="dot" />
   <project path="packages/apps/ThemePicker" name="android_packages_apps_ThemePicker" remote="dot" />
@@ -155,7 +160,7 @@
   <project path="packages/apps/SystemUpdates" name="android_packages_apps_SystemUpdates" remote="dot" />
   <project path="packages/apps/WallpaperPicker2" name="android_packages_apps_WallpaperPicker2" remote="dot" />
   <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="dot" />
-  <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="dot" />
+  <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="mod" />
   <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="dot" />
   <project path="packages/apps/FaceUnlockService" name="packages_apps_FaceUnlockService" remote="dot-git" />
   <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="dot" />
