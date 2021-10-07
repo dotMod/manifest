@@ -6,6 +6,9 @@
           review="https://review.lineageos.org/"
           revision="refs/heads/lineage-18.1" />
 
+        <remote name="anu"
+                fetch="https://github.com/11-whyred-new" />
+
   <!-- CodeAurora additions -->
   <project path="external/ant-wireless/ant_client" name="android_external_ant-wireless_ant_client" remote="lineage" />
   <project path="external/ant-wireless/hidl" name="android_external_ant-wireless_hidl" remote="lineage" />
@@ -91,7 +94,7 @@
   <!-- Display HALS -->
   <project path="hardware/qcom-caf/msm8996/display" name="android_hardware_qcom_display" revision="dot11-caf-msm8996" remote="dot" />
   <project path="hardware/qcom-caf/msm8996-los/display" name="android_hardware_qcom_display" revision="lineage-18.1-caf-msm8996" remote="lineage" />
-  <project path="hardware/qcom-caf/msm8998/display" name="android_hardware_qcom_display" revision="lineage-18.1-caf-msm8998" remote="lineage" />
+  <project path="hardware/qcom-caf/msm8998/display" name="hardware_qcom-caf_msm8998_display" remote="anu" revision="eleven" clone-depth="1" />
   <project path="hardware/qcom-caf/sdm845/display" name="android_hardware_qcom_display" revision="lineage-18.1-caf-sdm845" remote="lineage" />
   <project path="hardware/qcom-caf/sm8150/display" name="android_hardware_qcom_display" revision="lineage-18.1-caf-sm8150" remote="lineage" />
   <project path="hardware/qcom-caf/sm8250/display" name="android_hardware_qcom_display" revision="lineage-18.1-caf-sm8250" remote="lineage" />
