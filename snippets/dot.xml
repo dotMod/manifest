@@ -14,10 +14,6 @@
           review="https://review.droidontime.com/"
           revision="refs/heads/dot11" />
 
-  <remote name="dotOS-Devices"
-          fetch="https://github.com/dotOS-Devices"
-          revision="refs/heads/dot11" />
-
   <remote name="dotos-devices-gitlab"
           fetch="https://gitlab.com/dotos-devices"
           revision="refs/heads/dot11" />
